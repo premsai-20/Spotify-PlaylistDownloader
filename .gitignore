@@ -1,0 +1,20 @@
+# Ignore cache and authentication files
+.cache
+*.log
+
+# Ignore virtual environments (if using Python)
+venv/
+.env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store  
+Thumbs.db  
