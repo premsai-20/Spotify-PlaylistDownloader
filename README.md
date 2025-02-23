@@ -1,74 +1,58 @@
-Spotify Playlist Downloader 🎵
+# Spotify Playlist Downloader 🎵
 
-A Python-based music downloader that fetches songs from a Spotify playlist and downloads them from YouTube. This project is perfect for music lovers who want an easy way to store their favorite tracks offline.
+A Python-based music downloader that fetches songs from a Spotify playlist and downloads them from YouTube.
 
-Features 🚀
+## Features 🚀
 
-Fetch Spotify Playlists – Extracts track details from any public or private Spotify playlist.
+- **Fetch Spotify Playlists** – Extracts track details from any public or private Spotify playlist.
+- **Download from YouTube** – Matches and downloads high-quality audio from YouTube.
+- **Automatic File Naming** – Saves songs with proper titles and metadata.
+- **Cross-Platform** – Works on Windows, macOS, and Linux.
 
-Download from YouTube – Matches and downloads high-quality audio from YouTube.
+## Installation ⚙️
 
-Automatic File Naming – Saves songs with proper titles and metadata.
+### Prerequisites
 
-Cross-Platform – Works on Windows, macOS, and Linux.
+- Python 3.7+
+- pip (Python package manager)
+- FFmpeg (for processing audio files)
 
-Installation ⚙️
+### Clone the Repository
 
-Prerequisites
-
-Make sure you have the following installed:
-
-Python 3.7+
-
-pip (Python package manager)
-
-FFmpeg (for processing audio files)
-
-Clone the Repository
-
+```bash
 git clone https://github.com/premsai-20/SpotifyAPI-PlaylistDownloader.git
-cd SpotifyAPI-PlaylistDownloader
+```
 
-Install Dependencies
+### Install Dependencies
 
+Run the following command to install the necessary Python dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-Set Up Spotify API Credentials
+## Set Up Spotify API Credentials
 
-Go to the Spotify Developer Dashboard.
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
+2. Create a new app and get your **Client ID** and **Client Secret**.
+3. Add `http://localhost:8888/callback` as a redirect URI.
 
-Create a new app and get your Client ID and Client Secret.
-
-Add http://localhost:8888/callback as a redirect URI.
-
-Create a .env file in the project directory and add:
-
-SPOTIFY_CLIENT_ID=your_client_id
-SPOTIFY_CLIENT_SECRET=your_client_secret
-SPOTIFY_REDIRECT_URI=http://localhost:8888/callback
-
-Usage 📌
+## Usage 📌
 
 Run the script and enter a Spotify playlist URL:
 
+```bash
 python main.py
+```
 
-The script will fetch the playlist, find matching YouTube videos, and download them.
+The script will process the playlist and download the tracks from YouTube.
 
-Notes 📝
+## Contributing 🤝
 
-This project uses YouTube for audio downloads, so ensure your connection is stable.
+Contributions are welcome! Fork the repo and submit a pull request with your improvements or bug fixes.
 
-If a song isn’t found, you may need to refine the search logic.
+## Author & Contact
 
-Contributing 🤝
-
-Contributions are welcome! Feel free to fork this repo, make improvements, and submit a pull request.
-
-License 📜
-
-This project is open-source under the MIT License.
-
-Author 👨‍💻:
-Prem Sai📧 
-sakamurisai252@gmail.com🌍
+**Prem Sai**  
+Email: [sakamurisai252@gmail.com](mailto:sakamurisai252@gmail.com)  
+GitHub: [premsai-20](https://github.com/premsai-20)
