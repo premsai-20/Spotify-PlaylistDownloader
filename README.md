@@ -53,6 +53,6 @@ Contributions are welcome! Fork the repo and submit a pull request with your imp
 
 ## Author & Contact
 
-**Prem Sai**  
+***Prem Sai***  
 Email: [sakamurisai252@gmail.com](mailto:sakamurisai252@gmail.com)  
 GitHub: [premsai-20](https://github.com/premsai-20)
