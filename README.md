@@ -2,7 +2,7 @@
 
 A Python-based music downloader that fetches songs from a Spotify playlist and downloads them from YouTube.
 
-## Features 🚀
+## Features 
 
 - **Fetch Spotify Playlists** – Extracts track details from any public or private Spotify playlist.
 - **Download from YouTube** – Matches and downloads high-quality audio from YouTube.
